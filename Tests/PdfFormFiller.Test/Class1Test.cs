@@ -1,11 +1,12 @@
 namespace PdfFormFiller.Test
 {
+    using NUnit.Framework;
     using PdfFormFiller;
-    using Xunit;
 
+    [TestFixture]
     public class Class1Test
     {
-        [Fact]
+        [Test]
         public void Given_When_Then()
         {
             var class1 = new Class1();
